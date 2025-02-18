@@ -9,6 +9,6 @@ try:
     if numero % 10 == 0:
         print("El número",numero, "sí es múltiplo de 10")
     else: 
-        print("El número ",numero, "no es múltiplo de 10")
+        print("El número",numero, "no es múltiplo de 10")
 except ValueError:
     print("Error, intenta de nuevo.")        
